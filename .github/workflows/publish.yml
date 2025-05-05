@@ -1,5 +1,7 @@
 # On every push this script is executed (from https://www.getzola.org/documentation/deployment/github-pages/)
-on: push
+on:
+  workflow_dispatch:
+  push:
 name: Build and deploy GH Pages
 jobs:
   build:
