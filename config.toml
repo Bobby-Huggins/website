@@ -1,6 +1,7 @@
 theme = "apollo"
 title = "Bobby Huggins"
 taxonomies = [{ name = "tags" }]
+ignored_content = ["themes/apollo/content/*"]
 
 # The URL the site will be built for
 base_url = "https://example.com"
@@ -15,9 +16,6 @@ build_search_index = true
 # Whether to do syntax highlighting
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
 highlight_code = true
-
-[build]
-ignored_content = ["themes/apollo/content/*"]
 
 [extra]
 # Put all your custom variables here
