@@ -4,7 +4,7 @@ taxonomies = [{ name = "tags" }]
 ignored_content = ["themes/apollo/content/*"]
 
 # The URL the site will be built for
-base_url = "https://example.com"
+base_url = "https://github.com/Bobby-Huggins/website"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
