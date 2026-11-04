@@ -2,6 +2,7 @@ theme = "apollo"
 title = "Bobby Huggins"
 taxonomies = [{ name = "tags" }]
 ignored_content = ["themes/apollo/content/*"]
+minify_html = false
 
 # The URL the site will be built for
 base_url = "https://bobby-huggins.github.io/website"
@@ -19,7 +20,7 @@ build_search_index = true
 
 [extra]
 # Put all your custom variables here
-theme = "toggle"
+theme = "toggle-auto"
 socials = [
 #  { name = "twitter", url = "https://twitter.com/not_matthias", icon = "twitter" },
   { name = "github", url = "https://github.com/Bobby-Huggins/", icon = "github" },
